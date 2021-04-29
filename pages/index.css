@@ -1,0 +1,10 @@
+/*стили сторонних разработчиков*/
+@import url(../vendor/normalize.css);
+/*стили <body>*/
+@import url(../blocks/page/page.css);
+/*стили блока .header*/
+@import url(../blocks/header/header.css);
+/*стили блока .content*/
+@import url(../blocks/content/content.css);
+/*cтили блока .footer*/
+@import url(../blocks/footer/footer.css);
