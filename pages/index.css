@@ -1,10 +1,17 @@
 /*стили сторонних разработчиков*/
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 /*стили <body>*/
 @import url(../blocks/page/page.css);
 /*стили блока .header*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 /*стили блока .content*/
 @import url(../blocks/content/content.css);
+/*стили блока .lead*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__image/lead__image.css);
 /*cтили блока .footer*/
 @import url(../blocks/footer/footer.css);

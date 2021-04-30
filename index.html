@@ -5,18 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествие по России</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="page">
-    <div class="header">
-      <img src="./sprint-3-images/header-logo.svg" alt="Россия" class="header__logo">
-      <a class="header__lang-link"></a>
-      <a class="header__lang-link"></a>
-    </div>
+    <header class="header">
+        <img src="./images/header-logo.svg" alt="Россия" class="header__logo">
+        <ul class="header__links">
+          <a href="#" class="header__lang-link link-underline">Ru</a>
+          <a href="#" class="header__lang-link">En</a>
+        </ul>
+    </header>
     <main class="content">
       <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <img src="./images/lead-polka.jpg" alt="Фотография: спальный вагон" class="lead__image">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
       </section>
-      <section class="intro"></section>
+      <section class="intro">
+        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+        <ul class="intro__list list-item">
+          <li class="list-item">
+            <h2 class="list-item__title">Часовых поясов</h2>
+            <p class="list-item__amount">11</p>
+          </li>
+          <li class="list-item">
+            <h2 class="list-item__title">Объектов природного наследия ЮНЕСКО</h2>
+            <p class="list-item__amount">12</p>
+          </li>
+          <li class="list-item">
+            <h2 class="list-item__title">Объектов культурного наследия</h2>
+            <p class="list-item__amount">16</p>
+          </li>
+          <li class="list-item">
+            <h2 class="list-item__title">Природных заповедников</h2>
+            <p class="list-item__amount">105</p>
+          </li>
+          <li class="list-item">
+            <h2 class="list-item__title">Аэропортов</h2>
+            <p class="list-item__amount">241</p>
+          </li>
+        </ul>
+      </section>
       <section class="photo-grid"></section>
       <section class="places"></section>
       <section class="cover"></section>
