@@ -1,0 +1,21 @@
+.lead {
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1184px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1250px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .lead {
+    max-width: 320px;
+  }
+}

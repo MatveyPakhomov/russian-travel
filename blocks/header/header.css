@@ -1,0 +1,28 @@
+.header {
+  font-family: 'Inter', 'Arial', sans-serif;
+    color: white;
+    padding: 28px 0 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1184px;
+    box-sizing: content-box;
+}
+
+@media screen and (max-width: 1250px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header {
+    max-width: 288px;
+    padding: 16px 0 0;
+  }
+}

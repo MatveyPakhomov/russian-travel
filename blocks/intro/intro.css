@@ -1,0 +1,26 @@
+.intro {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: white;
+  max-width: 984px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .intro {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .intro {
+    max-width: 288px;
+  }
+}

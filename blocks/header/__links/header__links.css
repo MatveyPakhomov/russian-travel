@@ -1,1 +1,8 @@
-
+.header__links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 12px 0 0;
+  padding: 0;
+}

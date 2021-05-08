@@ -1,0 +1,24 @@
+.place__paragraphs {
+  max-width: 484px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1250px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .place__paragraphs {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .place__paragraphs {
+    max-width: 288px;
+    min-height: 495px;
+    margin: 0 auto;
+  }
+}
