@@ -1,7 +1,6 @@
 .cover {
   width: 100%;
   max-width: 1184px;
-  max-height: 740px;
   font-family: 'Inter', 'Arial', sans-serif;
   color: white;
   padding: 0;
@@ -11,8 +10,12 @@
 
 @media screen and (max-width: 1250px) {
   .cover {
-    width: 100%;
     max-width: 1024px;
-    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cover {
+    max-width: 320px;
   }
 }

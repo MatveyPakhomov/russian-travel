@@ -10,6 +10,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 82px;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
 }
 
 .cover__overlay::before {

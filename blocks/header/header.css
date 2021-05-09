@@ -1,11 +1,11 @@
 .header {
   font-family: 'Inter', 'Arial', sans-serif;
-    color: white;
-    padding: 28px 0 0;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1184px;
-    box-sizing: content-box;
+  color: white;
+  padding: 28px 0 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1184px;
+  box-sizing: content-box;
 }
 
 @media screen and (max-width: 1250px) {
