@@ -16,4 +16,4 @@
 5. Подключить другие шрифты
 6. Поэксперементировать с формами
 
-### Проект на GitHub - https://matwick1.github.io/russian-travel/index.html
+### Проект на GitHub - https://MatveyPakhomov.github.io/russian-travel/index.html
