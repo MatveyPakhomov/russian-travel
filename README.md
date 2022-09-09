@@ -1,12 +1,21 @@
-# Путешествие по России
-### Верстка проекта базового уровня с использованием следующих инструментов:
-1. Flexbox
-2. Grid
-3. @Import
-4. @Media
-5. Responsive design
-6. Adaptive design
-7. Proportional scale
-### А также с использованием ссылок и cписков.
+# **Путешествие по России**
 
-### Проект на GitHub Pages - https://MatveyPakhomov.github.io/russian-travel/index.html
+## О проекте:
+Учебный проект, представляет собой верстку одностраничного сайта базового уровня с использованием инструментов адаптивной и отзывчивой верстки.
+Стек: HTML, CSS.
+
+## Использованные инструменты:
+- Flexbox
+- Grid
+- @Import
+- @Media
+- Responsive design
+- Adaptive design
+- Proportional scale
+
+## Инструкции по запуску:
+- Скачать или склонировать репозиторий
+- Открыть `.html` файл
+
+## Ссылка на github pages:
+https://MatveyPakhomov.github.io/russian-travel/index.html
